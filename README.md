@@ -107,12 +107,19 @@ The page will reload with the analysis results, including the score, improvement
 # File Structure
 .
 ├── app.py              # Main Flask application, handles routing and file uploads
+
 ├── resume_scorer.py    # Core logic for PDF extraction and Gemini API communication
+
 ├── templates/
+
 │   └── index.html      # Frontend HTML template
+
 ├── uploads/            # Temporary folder for storing uploaded resumes (auto-generated)
+
 ├── .env                # Stores environment variables (e.g., API key)
+
 ├── requirements.txt    # Lists all Python dependencies
+
 └── README.md           # You are here!
 Contributing
 Contributions are welcome! If you have suggestions for improvements or want to add new features, please feel free to fork the repository and submit a pull request.
